@@ -1,0 +1,99 @@
+1. What are the two values of the Boolean data type? How do you write them?
+
+True and False.
+
+2. What are the three Boolean operators?
+
+and, or, not.
+
+3. Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+
+ and
+True and True = True
+
+True and False = False
+
+False and True = False
+
+False and False = False
+
+ or
+True and True = True
+
+True and False = True
+
+False and True = True
+
+False and False = False
+
+ not
+not True = False
+
+not False = True
+
+4. What do the following expressions evaluate to?
+
+
+5. What are the six comparison operators?
+
+== Equal to
+
+!= Not equal to
+
+< Less than
+
+> Greater than
+
+<= Less than or equal to
+
+>= Greater than or equal to
+
+6. What is the difference between the equal to operator and the assignment operator?
+
+O operador == (igual a) pergunta se dois valores são iguais.
+O operador = (atribuição) coloca o valor à direita na variável à esquerda.
+
+7. Explain what a condition is and where you would use one.
+
+Condição é apenas um nome mais específico no contexto das instruções de controle de fluxo. As condições sempre são avaliadas como um valor booleano, verdadeiro ou falso. Uma instrução de controle de fluxo decide o que fazer com base em se sua condição é True ou False, e quase todas as instruções de controle de fluxo usam uma condição.
+
+8. Identify the three blocks in this code:
+
+spam = 0
+if spam == 10:
+    print('eggs') -> block
+    if spam > 5:
+        print('bacon') -> block
+    else:
+        print('ham') -> block
+    print('spam')
+print('spam')
+
+for i in range(0, 10, 1):
+    print(i)
+
+9. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+
+spam = int(input())
+if spam == 1:
+    print('Hello')
+elif spam == 2:
+    print('Howdy')
+else:
+    print('Greetings!')
+
+10. What keys can you press if your program is stuck in an infinite loop?
+
+CTRL + C
+
+11. What is the difference between break and continue?
+
+O break sai imediatamente da cláusula do loop while.
+
+O continue volta para o início do loop e reavalia a condição do loop. (Isso também acontece quando a execução chega ao final do loop.)
+
+12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+
+range(10) e range(0, 10) -> imprimem 1 sequencia de 10 números, começando em 0.
+
+range(0, 10, 1) -> imprime 1 sequencia de 10 números, começando em 0 e de 1 em 1.
